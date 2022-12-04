@@ -1,0 +1,24 @@
+.header{
+	text-align: center;
+	background-image: url(images/polygons.png);
+	color: white;
+	padding: 200px 0;
+}
+.more:hover{
+	background-color: black;
+	color: white;
+
+}
+.more{
+	background-color:white;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.3s;
+
+	/*На нашем шаблоне ссылка выглядит как кнопка.
+
+Нужно написать соответствующий css для нее.
+Мы уже знаем про hover, поэтому при наведении мышки менять местами цвет текста и цвет фона.
+*/
+}

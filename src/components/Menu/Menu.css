@@ -1,0 +1,31 @@
+.menu{
+	text-align: center;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	opacity: 0.78;
+}
+@media(max-width: 575px){
+	.menu{
+		position: static;
+	}
+}
+.menu a{
+	text-decoration: none;
+	color:black;
+	width: 140px;
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+	border: solid 3px black;
+}
+@media(max-width: 575px){
+	.menu a{
+		display: block;
+		width:auto; 
+	}
+}
+.menu a:hover{
+	background-color: #CCC;
+}

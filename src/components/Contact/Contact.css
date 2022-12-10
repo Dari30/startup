@@ -1,0 +1,18 @@
+#contact{
+	background-color: #f1f1f1;
+	/*text-align: center;*/
+}
+.contact-info{
+	padding: 10px 45px;
+	background-position: 10px center;
+	background-repeat: no-repeat;
+}
+.contact-adress{
+	background-image:url(images/address.png);
+}
+.contact-phone{
+	background-image:url(images/phone.png);
+}
+.contact-mail{
+	background-image:url(images/mail.png);
+}

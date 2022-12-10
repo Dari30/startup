@@ -1,0 +1,39 @@
+#team{
+	text-align: center;
+}
+.member img{
+	width: 100%;
+}
+.member:hover{
+	transform: scale(1.05);
+}
+#team{
+	text-align: center;
+}
+.member h3{
+	font-weight: 400;
+	font-size: 24px;
+}
+.member .position{
+	opacity: 0.6;
+}
+.member a{
+	background-color:#055b73;
+	color:white;
+	width: 95%;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	padding: 14px 0;
+	text-decoration: none;
+
+}
+.member{
+	display: inline-block;
+	width: 20%;
+	margin: 20px 5px;
+	border:2px grey solid;
+	padding:15px;
+	box-shadow:  -5px 2px 10px 2px grey;
+	text-align: left;
+}

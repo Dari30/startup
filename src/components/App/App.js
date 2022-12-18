@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import Menu from '../Menu/Menu';
 import Header from '../Header/Header';
 import AboutCompany from '../AboutCompany/AboutCompany';
+import Prices from '../Prices/Prices';
+import Team from '../Team/Team';
+import Contact from '../Contact/Contact';
 import './App.css';
 
 function App() {
@@ -10,6 +13,9 @@ function App() {
       <Menu/>
       <Header/>
       <AboutCompany/>
+      <Team/>
+      <Prices/>
+      <Contact/>
     </div>
     // <div className="App">
     //   <header className="App-header">

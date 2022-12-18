@@ -74,19 +74,3 @@
 .period{
 	opacity: 0.4;
 }
-.footer{
-	color: white;
-	background-color:black;
-}
-.person{
-	width: 95%;
-	margin: 12px 25px;
-	padding: 5px 10px;
-	border-width: 0;
-}
-@media(max-width: 575px){
-	.person{
-		width: 80vw;
-		margin:12px 5vw;
-	}
-}

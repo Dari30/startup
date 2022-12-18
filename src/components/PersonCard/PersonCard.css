@@ -1,5 +1,17 @@
-#team{
-	text-align: center;
+.member{
+	display: inline-block;
+	width: 20%;
+	margin: 20px 5px;
+	border:2px grey solid;
+	padding:15px;
+	box-shadow:  -5px 2px 10px 2px grey;
+	text-align: left;
+}
+@media(max-width: 575px){
+	.member{
+		display:block;
+		width: auto;
+	}
 }
 .member img{
 	width: 100%;
@@ -27,19 +39,4 @@
 	padding: 14px 0;
 	text-decoration: none;
 
-}
-.member{
-	display: inline-block;
-	width: 20%;
-	margin: 20px 5px;
-	border:2px grey solid;
-	padding:15px;
-	box-shadow:  -5px 2px 10px 2px grey;
-	text-align: left;
-}
-@media(max-width: 575px){
-	.member{
-		display:block;
-		width: auto;
-	}
 }

@@ -1,3 +1,19 @@
+.footer{
+	color: white;
+	background-color:black;
+}
+.person{
+	width: 95%;
+	margin: 12px 25px;
+	padding: 5px 10px;
+	border-width: 0;
+}
+@media(max-width: 575px){
+	.person{
+		width: 80vw;
+		margin:12px 5vw;
+	}
+}
 #contact{
 	background-color: #f1f1f1;
 	/*text-align: center;*/
@@ -15,4 +31,25 @@
 }
 .contact-mail{
 	background-image:url(images/mail.png);
+}
+.shy{
+	text-align: center;
+}
+input[type=submit]{
+	background-color: black;
+	color: white;
+	padding: 30px 20px;
+	border-radius: 5px;
+	margin: 20px auto;
+	display: block;
+}
+form{
+	width: 100%;
+}
+
+.send{
+	transition: 2s;
+}
+.send:hover{
+transform: 	rotate(360deg);
 }
